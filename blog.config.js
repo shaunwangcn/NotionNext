@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Xuefeng', // 您的昵称 
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个爱学习的中医', /  LINK: process.env.NEXT_PUBLIC_LINK || 'https://acuswiss.vercel.app', // 网站地址
+  BIO: process.env.NEXT_PUBLIC_BIO || '中医，哲学，科学的思考' / LINK: process.env.NEXT'https://acuswiss.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
