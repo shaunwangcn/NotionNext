@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Xuefeng', // 您的昵称 
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Xuefeng Wang', // 您的昵称 
   BIO: process.env.NEXT_PUBLIC_BIO || '中医，哲学，科学的思考', // 个人简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://acuswiss.vercel.app', // 网站地址
 
